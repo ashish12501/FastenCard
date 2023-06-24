@@ -1,0 +1,50 @@
+-- component card:
+
+
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #c5dff5
+border-width.px: 5
+padding.px: 20
+spacing.fixed.px: 50
+border-radius.px: 20
+
+
+-- ftd.image:
+src: https://w0.peakpx.com/wallpaper/861/211/HD-wallpaper-girl-road-transition-sakura-live-anime-art-thumbnail.jpg
+height: fill-container
+border-radius.px: 20
+
+
+-- ftd.column:
+
+-- ftd.text: Title
+role: $inherited.types.heading-medium
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+
+lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum 
+lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum 
+lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum lorum Ipsum 
+ 
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: card
+
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #eee
+spacing.fixed.px: 20
+align-content: center
+
+-- card:
+
+-- end: ftd.column
